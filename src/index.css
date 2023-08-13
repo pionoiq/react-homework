@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Mro:regular);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  /* background: #212426; */
+}
+
+.parent {
+  padding: 30px;
+  margin: 100px auto;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  position: relative;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background: #64e790;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-family: "Noto Sans Mro";
+  font-size: 15px;
+  color: #ffffff;
+  box-shadow: 0px 6px 0px #0f8528;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0px 2px 0px #0f8528;
+  top: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
+.FigmawhiteLogo {
+  background: url(./assets/FigmawhiteLogo.svg) no-repeat 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.FigmaBlackLogo {
+  background: url(./assets/FigmaBlackLogo.svg) no-repeat 50%;
+  width: 100%;
+  height: 100%;
+}
