@@ -9,7 +9,7 @@ function changeLogo() {
 
   return (
     <>
-      <div className="background">
+      <div className="parent">
         <div className={`FigmawhiteLogo ${change ? "hidden" : ""}`}></div>
         <div className={`FigmaBlackLogo ${change ? "" : "hidden"}`}></div>
         <button onClick={() => handleClick()}>로고 변경</button>
